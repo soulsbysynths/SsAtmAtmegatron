@@ -36,7 +36,6 @@
 #include <BiquadFilter.h>
 #include <Amplifier.h>
 #include <Envelope.h>
-#include <EnvelopeProgmem.h>
 #include <AtmPatchBase.h>
 #include <AtmPatch.h>
 #include <AtmOscillator.h>
