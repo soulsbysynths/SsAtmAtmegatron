@@ -15,41 +15,32 @@
 //along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include <Atm.h>
-#include <AtmEngineSettings.h>
-#include <AtmHardware.h>
-#include <AtmEngine.h>
-#include <AtmEngineProgmem.h>
-#include <Pwm.h>
-#include <ClipDistortion.h>
-#include <Flanger.h>
-#include <Wavecrusher.h>
-#include <Arpeggiator.h>
-#include <ArpeggiatorBase.h>
-#include <ArpeggiatorProgmem.h>
-#include <Midi.h>
-#include <MidiBase.h>
-#include <AtmPitch.h>
-#include <Portamento.h>
-#include <Lfo.h>
-#include <LfoProgmem.h>
-#include <MasterClock.h>
-#include <BiquadFilter.h>
-#include <Amplifier.h>
-#include <Envelope.h>
-#include <AtmPatchBase.h>
-#include <AtmPatch.h>
-#include <AtmOscillator.h>
-#include <AtmOscillatorProgmem.h>
-#include <Wavetable.h>
+#include <AtmEngineBase.h>
+#include <AtmHardwareBase.h>
 #include <AtmAudio.h>
+#include <Wavetable.h>
+#include <AtmOscillator.h>
+#include <AtmPatch.h>
 #include <SsHelpers.h>
-#include <LedCircular.h>
+#include <Envelope.h>
+#include <Amplifier.h>
+#include <BiquadFilter.h>
+#include <MasterClock.h>
+#include <Lfo.h>
+#include <Portamento.h>
+#include <AtmPitch.h>
+#include <Midi.h>
+#include <Arpeggiator.h>
+#include <Wavecrusher.h>
+#include <Flanger.h>
+#include <ClipDistortion.h>
+#include <Pwm.h>
 #include <LedRgb.h>
+#include <LedCircular.h>
 #include <Led.h>
 #include <AnalogueControl.h>
 #include <Switch.h>
 #include <RotaryEncoder.h>
-
 
 Atm atmegatron;
 
