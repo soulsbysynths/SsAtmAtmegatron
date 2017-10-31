@@ -47,7 +47,6 @@
 #include <LedRgb.h>
 #include <Led.h>
 #include <AnalogueControl.h>
-#include <AnalogueControlBase.h>
 #include <Switch.h>
 #include <RotaryEncoder.h>
 
